@@ -7,16 +7,20 @@
     <link rel="stylesheet" href="css/pico.pink.min.css">
     <link rel="stylesheet" href="css/pico.colors.min.css">
     <style>
-    /* img {
+    img {
       border-radius: 50%;
-      max-width: 100%;
       height: auto;
-    } */
+    }
+    @media screen and (max-width: 500px){
+    img {
+        display: inline-block;
+        width: 100%;
+    }
+}
     @media screen and (max-width: 1200px){
     img {
-        border-radius: 50%
         display: inline-block;
-        width: 30%;
+        width: 300px;
         float: right;
     }
 }
@@ -38,7 +42,7 @@
       <p class ="pico-color-gray-500">email: ciz230 at student dot bham dot ac dot uk</p>
     </main>
     <main class="container-fluid">
-      <img src="/IMG_8895.JPG" width="300px" style="float: right">
+      <img src="/IMG_8895.JPG">
       <p>Hi! I am a 
       third year PhD student at the University of Birmingham under the supervision 
       of <a href="https://web.mat.bham.ac.uk/~mycroftr/" target="_blank">Richard Mycroft</a>.</p>
